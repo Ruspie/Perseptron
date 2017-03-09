@@ -24,6 +24,11 @@ namespace Perseptron
             return result;
         }
 
+        public void SetElement(int index, int value)
+        {
+            Elements[index] = value;
+        }
+
         public int GetElementsLength()
         {
             return Elements.Length;

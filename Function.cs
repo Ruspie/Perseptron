@@ -23,6 +23,11 @@ namespace Perseptron
             return Elements.Length;
         }
 
+        public int GetElement(int index)
+        {
+            return Elements[index];
+        }
+
         public static Function operator +(Function function, Vector vector)
         {
             if (function.GetElementsLength() != vector.GetElementsLength()) throw new ArgumentException();
@@ -30,6 +35,18 @@ namespace Perseptron
             Function result = new Function(function.Elements.Length);
             for (int i = 0; i < function.GetElementsLength(); i++) {
                 result.Elements[i] = function.Elements[i] + vector.GetElement(i);
+            }
+            return result;
+        }
+
+        public static Function operator -(Function function, Vector vector)
+        {
+            if (function.GetElementsLength() != vector.GetElementsLength()) throw new ArgumentException();
+
+            Function result = new Function(function.Elements.Length);
+            for (int i = 0; i < function.GetElementsLength(); i++)
+            {
+                result.Elements[i] = function.Elements[i] - vector.GetElement(i);
             }
             return result;
         }
