@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj
 		{D1A87AE7-569B-4C0D-8CB3-7EE126FD228B} = {D1A87AE7-569B-4C0D-8CB3-7EE126FD228B}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseptron.Tests", "..\Perseptron.Tests\Perseptron.Tests.csproj", "{DC95514F-E34E-474A-AD98-497868FCE804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{CFE4BE74-ED1F-4E90-8895-468B7C9B1F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE4BE74-ED1F-4E90-8895-468B7C9B1F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE4BE74-ED1F-4E90-8895-468B7C9B1F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC95514F-E34E-474A-AD98-497868FCE804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC95514F-E34E-474A-AD98-497868FCE804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC95514F-E34E-474A-AD98-497868FCE804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC95514F-E34E-474A-AD98-497868FCE804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
