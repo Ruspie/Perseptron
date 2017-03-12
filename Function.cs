@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Perseptron
 {
     public class Function
     {
-        private int[] Elements { get; set; }
+        private int[] Elements { get; }
 
         public Function(int size)
         {

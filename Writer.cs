@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Perseptron;
-
-namespace Perseptron
+﻿namespace Perseptron
 {
     public static class Writer
     {

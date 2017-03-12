@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Perseptron
+﻿namespace Perseptron
 {
     public class Vector
     {
-        private int[] Elements { get; set; }
+        private int[] Elements { get; }
 
         public Vector(int size)
         {
